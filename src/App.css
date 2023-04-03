@@ -1,0 +1,27 @@
+/* Mobile styles */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+/* Large 4k display styles */
+@media (min-width: 1441px) {
+  body {
+    font-size: 24px;
+  }
+}
