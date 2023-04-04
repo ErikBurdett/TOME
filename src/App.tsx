@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import CombatTracker from './components/CombatTracker';
 import PageContainer from './components/PageContainer';
+import DayDecider from './components/DayDecider';
 import './App.css'
 
 const isAuthenticated = false;
@@ -11,6 +12,7 @@ const UnAuthApp: FC = () => {
     <PageContainer>
       <Routes>
         <Route path="/login" element={<CombatTracker />} />
+        <Route path="/day" element={<DayDecider />} />
       </Routes>
     </PageContainer>
   );
